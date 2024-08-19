@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe:Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome in the Tic Tac Toe Game!</h1>
+        <div class="ins-box">
+            <h3>Game Instruction:<br></h3>
+            <ul>
+                <li>Choose Your player x or o</li>
+                <li>Match this</li>
+                <li>For Two player press Manual</li>
+                <li>For playing with AI press Computer</li>
+            </ul>
+        </div>
+        <button class="entryBtn">Let's Go</button>
+        </div>
+        <div class="container1">
+            <h1>Please Select One</h1>
+        <button class="manual-btn">Manual</button>
+        <button class="com-btn">Computer</button>
+        </div>
+        <div class="container2">
+        <div class="hero">
+            <button id="xdisplay" onclick="setPlayer('X')" class="player">X</button>
+            <div id="title-heading">Choose</div>
+            <button id="odisplay" onclick="setPlayer('O')" class="player">O</button>
+        </div>
+        <div class="cell-container">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <button class="reset">Reset</button>
+        <button class="back-btn">Go Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
